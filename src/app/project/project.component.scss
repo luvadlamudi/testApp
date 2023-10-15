@@ -1,0 +1,42 @@
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    .projectBody{
+        background-color: #697268;
+        width: 30vw;
+        height: 35vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin-top: 1em;
+        color: #545258;
+        background-color: #EF6351;
+    }
+}
+.modalProject{
+    overflow: scroll !important;
+}
+.projectBody{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}

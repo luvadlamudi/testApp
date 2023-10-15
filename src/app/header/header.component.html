@@ -1,0 +1,16 @@
+<div class="mainDiv">
+    <mdb-navbar SideClass="navbar navbar-1 navbar-light amber lighten-2" [containerInside]="false">
+        <mdb-navbar-brand><a class="navbar-brand" href="#">{{title}}</a></mdb-navbar-brand>
+    
+        <links>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <button mdbBtn type="button" gradient="peach" rounded="true" mdbWavesEffect (click)="changePages()">About me</button>
+                </li>
+            </ul>
+        </links>
+    
+    </mdb-navbar>
+<projects *ngIf="mainPage"></projects>
+<app-about-me *ngIf="!mainPage"></app-about-me>
+</div>
